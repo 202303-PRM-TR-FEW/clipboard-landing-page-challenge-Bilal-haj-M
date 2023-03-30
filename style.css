@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital@0;1&display=swap');
+
+
+body {
+    Font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    
+    
+
+}
+
+body h1 {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+    
+}
+
+body p {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.hero-bg {
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+
+footer {
+    background-color: #f5f6f8;
+    padding-bottom: 0.5em;
+    padding-top:2em;
+}
+
+body footer p {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
+@media only screen and (max-width: 500px) {
+    
+.container {
+    margin-left: em;
+    margin-bottom:8em ;
+
+    
+}
+
+
+
+
+}
+
+@media only screen and (min-width: 1440px) {
+    
+    
+    
+
+    .logo-end {
+
+        margin-right: 7em;
+        margin-left: 5em;
+        max-width: 70px;
+    }
+}
